@@ -8,7 +8,7 @@ int main(){
 	cin>>kata;
 	if (kata == "Hajj") {
         cout<<"Case 1: Hajj-e-Akbar"<<endl;
-    } else {
+    } else if (kata=="Umrah"){
         cout<<"Case 1: Hajj-e-Asghar"<<endl;
     }
 	while (kata != "*") {
